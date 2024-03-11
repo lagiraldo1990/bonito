@@ -1,0 +1,80 @@
+*,
+*::after,
+*::before {
+  box-sizing: inherit;
+}
+
+html {
+background-color: hsl(47, 88%, 63%);
+}
+
+.targe {
+  background: hsl(0, 0%, 100%);
+  border-radius: 30px;
+  position: relative;
+  left: 55vh;
+  width: 564px;
+  height: 800px;
+  border-bottom: solid 15px hsl(0, 0%, 7%);
+  border-right: solid 15px hsl(0, 0%, 7%);
+  
+}
+
+.img {
+  background-repeat: no-repeat;
+  border-radius: 15px;
+  position: absolute;
+  left: 2rem;
+  top: 2rem;
+}
+
+.clic {
+  background-color: hsl(47, 88%, 63%);
+  font-size: 18px;
+  border-radius: 6px;
+  position: relative;
+  left: 5vh;
+  height: 35px;
+  width: 90px;
+  border: none;
+  bottom: -23rem;
+}
+
+.date {
+  font-size: 20px;
+  position: relative;
+  left: 5vh;
+  bottom: -25rem;
+}
+
+.title {
+  position: relative;
+  left: 5vh;
+  bottom: -26rem;
+}
+
+.blok {
+  color: hsl(0, 0%, 50%);
+  font-size: 20px;
+  position: relative;
+  left: 5vh;
+  bottom: -27rem;
+}
+
+.avatar {
+  position: relative;
+  left: 5vh;
+  bottom: -29rem;
+}
+
+.name {
+  position: relative;
+  left: 16vh;
+  bottom: -26rem;
+}
+
+.attribution{
+  font-size: 20px;
+  text-align: center;
+  color: hsl(228, 45%, 44%);
+}
